@@ -1,0 +1,2 @@
+Proveďte nějakou úpravu v souboru HokPok.txt a "propiště" do vzdáleného
+repozitáře
