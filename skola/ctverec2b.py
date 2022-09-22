@@ -1,20 +1,18 @@
 import turtle
 from turtle import *
 
-
-def ctverec(A):
+def ctverec2(A):
 
   for i in range(4):
     forward(A)
     left(90)
 
-delka = int(input("Zadejte délku strany"))
+delka = int(input("Zadejte délku strany:"))
 
-ctverec(delka)
+ctverec2(delka)
 penup()
 goto(x=200, y=0)
 pendown()
-ctverec(delka)
-
+ctverec2(delka)
 
 done()
