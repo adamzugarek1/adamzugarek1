@@ -1,0 +1,25 @@
+def je_sude(c):
+    ret = c % 2 == 0
+    return ret
+
+def prumer(s):
+    x = sum(s) / len(s)
+    return x
+
+txt = input("zadej liché číslo: ")
+cislo = int(txt)
+
+if je_sude(cislo):
+    cislo += 1
+
+seznam_cisel = [cislo]
+
+for i in range(9):
+    cislo += 2
+    seznam_cisel.append(cislo)
+print(seznam_cisel)
+
+val = prumer(seznam_cisel)
+
+print(f"průměr seznamu je: {val:.2f}")
+
