@@ -1,0 +1,9 @@
+def posun(s,pocet):
+    ret = s[pocet:] + s[:pocet]
+    return ret
+
+seznam = [1, 2, 3, 4]
+num = int(input("o kolik mist se ma seznam posunout? "))
+
+posunuty_seznam = posun(seznam,num)
+print(f"posunutý seznam: {posunuty_seznam}")
